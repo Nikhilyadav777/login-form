@@ -1,0 +1,110 @@
+ body {
+  background-color: hsl(123, 63%, 37%);
+  background-image: linear-gradient(62deg, #f7ddc7 0%, #229ed8 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  margin: 10vh 0 0 0;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.center {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  table-layout: initial;
+  margin: 40px auto;
+  border-style: groove;
+  background-color: hsl(276, 92%, 33%);
+}
+
+table.list {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  width: 100%;
+  border-radius: 0.5cm;
+}
+
+td {
+  border: 1px solid rgb(31, 71, 48);
+  text-align: left;
+  padding: 8px 15px;
+  background-color: hsl(249, 74%, 60%);
+}
+
+tr:nth-child(even),
+table.list thread > tr {
+  background-color: hsl(337, 87%, 41%);
+}
+
+input[type="text"] {
+  width: 95%;
+  padding: 10px 10px;
+  margin: 0px 0 10px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background: rgb(133, 3, 102);
+  padding: 6px 12px;
+  margin: 15px 0 10px;
+  display: inline-block;
+  /* border: none; */
+  border: #1c6839;
+  border-radius: 1.5cm;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+  background: #7da324;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background: #150727;
+  color: rgb(153, 109, 13);
+  font-size: 1.2rem;
+  font-family: cursive;
+}
+
+tbody {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input-part {
+  font-family: sans-serif;
+  font-size: 1.3rem;
+}
+
+button {
+  background: #075a2d;
+  color: rgba(197, 26, 26, 0.945);
+  padding: 6px 12px;
+  margin: 15px 0 10px;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  outline: none;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="loginBox"> <img class="user" src="https://i.ibb.co/yVGxFPR/2.png" height="100px" width="100px">
+        <h3>Signup here</h3>
+        <form class="input-part" autocomplete="on" onsubmit="onFormSubmit()">
+        <div class="inputBox"> 
+        <input id="uname" type="text" name="Username" placeholder="Username"  required>
+        <input id="email" type="email" name="Email" placeholder="Email"  required>
+        <input id="pass" type="password" name="Password" placeholder="Password" required>
+                
+
+            </div>
+            <input type="submit" name="" value="Login">
+        </form>
+        <a href="#">Forget Password<br> </a>
+        <div class="text-center">
+            
+            <a href="./login.html" style="color: #59238F; padding: 5px;">Login</a>
+        </div>
+
+    </div>
+    <td>
+        <table class="list" id="storeList">
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Password</th>
+                    <th>Email</th>
+                  <!--   <th>Gender</th>
+                    <th>Skills</th> -->
+                </tr>
+            </thead>
+        </table>
+     </td>
+</body>
+<script src="./min.js"></script>
+</html>
